@@ -1,0 +1,9 @@
+- Qué es una API?
+# Es un conjunto de reglas y definiciones que permiten que diferentes aplicaciones se comuniquen entre sí.
+# Por ejemplo, cuando utilizas una aplicación de clima en tu teléfono, esta aplicación utiliza una API para obtener datos meteorológicos de un servicio de terceros. Así, no necesitan construir todo el sistema meteorológico desde cero; simplemente usan la API para obtener la información que necesitan.
+
+- Qué es REST?
+# REST, que significa Representational State Transfer, es un estilo de arquitectura para diseñar servicios web.
+
+- A que se refiere el término RESTFUL?
+# El término RESTful se refiere a un estilo arquitectónico utilizado en el diseño de servicios web. REST significa Representational State Transfer. Es una manera de permitir que diferentes sistemas en la web se comuniquen entre sí de manera eficiente y estandarizada. Los servicios web que siguen los principios REST son llamados RESTful.
