@@ -1,8 +1,0 @@
-#Obtener datos de un usuario de github.
-GET https://api.github.com/users/RocketG20
-Accept: application/vnd.github.v3+json
-
-
-#obtener datos del clima de una ciudad.
-GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY
-Accept: application/json
