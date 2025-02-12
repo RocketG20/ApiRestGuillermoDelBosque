@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+xmlparser = require('express-xml-bodyparser');
 
 app.use('/', (req, res, next) => {
     console.log("Peticion al servidor");
@@ -12,6 +13,7 @@ app.use('/', (req, res, next) => {
 
 app.use(express.json());
 app.use(express.text());
+app.use(xmlparser());
 
 app.get('/', (req, res) => { 
     res.sendFile(__dirname + '/index.html');
