@@ -1,0 +1,7 @@
+#Obtener datos de un usuario de github.
+GET https://api.github.com/users/RocketG20
+Accept: application/vnd.github.v3+json
+
+# Obtener información de un repositorio específico.
+GET https://api.github.com/repos/RocketG20/ApiRestGuillermoDelBosque
+Accept: application/vnd.github.v3+json

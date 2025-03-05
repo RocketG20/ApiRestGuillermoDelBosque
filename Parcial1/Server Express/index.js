@@ -24,3 +24,6 @@ app.use((req, res) => {
 app.listen(port, () => {
     console.log(`corriendo servidor http://localhost:3000`);
 });
+
+//hateoas
+//instalar hallson, agregar links(rutas a otros metodos?), agredar recursos
